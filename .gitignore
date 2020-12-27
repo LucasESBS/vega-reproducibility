@@ -1,4 +1,4 @@
-/data/
-/trained_models/
-/plots/
-/paper/
+#/data/
+#/trained_models/
+#/plots/
+#/paper/
