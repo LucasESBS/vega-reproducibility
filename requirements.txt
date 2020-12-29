@@ -6,5 +6,5 @@ sklearn
 networkx
 seaborn
 scipy==1.4
-scanpy
+scanpy==1.5.1
 umap-learn
