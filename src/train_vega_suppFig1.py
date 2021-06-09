@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import torch
-from vega_model import VEGA
+from old_vega import VEGA
 from utils import *
 from learning_utils import *
 import scanpy as sc
@@ -14,7 +14,7 @@ import argparse
 
 def train_vega():
     """ Main """
-    train_path = "./data/train_pbmc.h5ad"
+    train_path = "./data/kang_pbmc.h5ad"
     pathway_file = "./data/reactomes.gmt"
     LR = 1e-4
     N_EPOCHS=500

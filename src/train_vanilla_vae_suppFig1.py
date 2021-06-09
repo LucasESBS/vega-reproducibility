@@ -14,7 +14,7 @@ import argparse
 
 def train_vae():
     """ Main """
-    train_path = "./data/train_pbmc.h5ad"
+    train_path = "./data/kang_pbmc.h5ad"
     pathway_file = "./data/reactomes.gmt"
     LR = 1e-4
     N_EPOCHS=500

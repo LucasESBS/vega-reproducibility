@@ -1,4 +1,8 @@
-VEGA reproducibility
+# VEGA reproducibility
+
+
+### IMPORTANT NOTE (2021/06/04): 
+**Reproducibility code updated for current revisions is available in "revision1" branch. Please clone this specific branch for up-to-date reproducibility code.**
 
 This repository contains the code and instructions to reproduce the results from the VEGA paper.
 
@@ -8,10 +12,10 @@ pip install -r requirements.txt
 Instructions:
 
 1) Download archive with preprocessed data at:
-https://drive.google.com/file/d/17suAzOKkiLwdv-IVPuJgPbhs45cKfT0x/view?usp=sharing
+https://drive.google.com/file/d/1j0D6gMQEGmwSfS7GeO_ZB4TsyGh0eN5y/view?usp=sharing
 
 2) Unpack data to the data directory using this command in this directory:
-tar zxvf /path/to/vega-data.tar.gz -C ./data --strip-components 1
+tar zxvf /path/to/vega-data-rev1.tar.gz -C ./data --strip-components 1
 
 3) Run the bash script to train all models:
 bash train_all_models.sh

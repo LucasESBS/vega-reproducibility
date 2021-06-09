@@ -2,3 +2,5 @@
 #/trained_models/
 #/plots/
 #/paper/
+.ipynb_checkpoints/
+__pycache__
